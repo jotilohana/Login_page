@@ -24,6 +24,14 @@ margin:  70px auto;
 img{
     width: 90%;
 }
+@media (max-width: 400px){
+    .login-div{
+        width: 80%;
+        margin: 22% auto 5%;
+        padding: 3%;
+        height: 450px;
+    }
+}
 @media (max-width: 600px){
     .login-div{
         width: 80%;
