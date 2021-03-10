@@ -29,7 +29,7 @@ img{
         width: 80%;
         margin: 20% auto 5%;
         padding: 2%;
-        height: 500px;
+        height: 300px;
     }
 }
 @media (max-width: 800px) and (min-width:600px){
