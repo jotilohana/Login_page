@@ -27,7 +27,9 @@ img{
 @media (max-width: 600px){
     .login-div{
         width: 80%;
-        margin: 12% auto 5%;
+        margin: 20% auto 5%;
+        padding: 2%;
+        height: 100px;
     }
 }
 @media (max-width: 800px) and (min-width:600px){
@@ -38,7 +40,7 @@ img{
 }
 @media (max-width: 1000px) and (min-width:800px){ 
     .login-div{
-        width: 60%;
-        margin: 15% auto 5%;
+        width: 65%;
+        margin: 12% auto 5%;
     }
  }
