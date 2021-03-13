@@ -24,6 +24,11 @@ margin:  70px auto;
 img{
     width: 90%;
 }
+a{
+    color: black;
+    text-decoration-line: none;
+    font-weight: 800;
+}
 @media (max-width: 400px){
     .login-div{
         width: 80%;
@@ -36,7 +41,7 @@ img{
     .login-div{
         width: 80%;
         margin: 20% auto 5%;
-        padding: 2%;
+        padding: 3%;
         height: 400px;
     }
 }
