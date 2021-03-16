@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="CSS/style.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 
   <!-- bootstrap -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -37,11 +41,11 @@
         <!-- <label for="exampleInputPassword1">Password</label> -->
         <input type="password" placeholder=" Password" required class="form-control fas fa-key input" id="exampleInputPassword1">
       </div>
-      <div>
-       <h5><b><a href="" target="_blank">Forgot Password</a></b></h5>
+      <div class="spinner-border" role="status">
+        <button type="button" class="btn btn-success">LOGIN</button>
+        <span class="sr-only">Loading...</span>
       </div>
-      <button type="button" class="btn btn-success">LOGIN</button>
-
+      
     </form>
   </div>
 </body>
